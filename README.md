@@ -79,12 +79,12 @@ asserting the state transition to `checked` and that the finalized `conflict` is
 
 ## Deploy
 
-The contract address is `DEPLOY_PENDING` until deployed. Copy `.env.example` to `.env`, fill in
+The contract address is `0x4685EF1Bc775b53c356c8732f956eE79b31415B2` until deployed. Copy `.env.example` to `.env`, fill in
 `ACCOUNT_PRIVATE_KEY`, then:
 
 ```
 genlayer deploy --contract contracts/mark_conflict.py
 ```
 
-After deployment, set `CONTRACT_ADDRESS` in `.env` (currently `DEPLOY_PENDING`) to the returned
+After deployment, set `CONTRACT_ADDRESS` in `.env` (currently `0x4685EF1Bc775b53c356c8732f956eE79b31415B2`) to the returned
 address.
